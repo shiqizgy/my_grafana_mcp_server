@@ -1,0 +1,1 @@
+提供Prometheus指标智能查询、Grafana面板自动生成（数据源默认设置为grafana）
