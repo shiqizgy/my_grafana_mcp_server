@@ -1,0 +1,16 @@
+[project]
+name = "shiqi-grafana-chart-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.12.1",
+]
+
+[project.scripts]
+shiqi-grafana-chart-mcp = "shiqi_grafana_chart_mcp:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
